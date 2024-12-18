@@ -31,8 +31,6 @@ After configuring the firewall, you can test the setup using the test/ directory
 test_firewall.sh: This script tests if the firewall is correctly blocking and allowing traffic as expected: bash test/test_firewall.sh
 test_logs.sh: Check for any dropped packets in the logs: bash test/test_logs.sh
 
-- ### 4. Logging:
-The project logs firewall events such as dropped packets. Check the logs in the logs/ directory: cat logs/firewall_logs.txt
 
-- ### 5. Save your iptables rules:
+- ### 4. Save your iptables rules:
 To make sure your firewall rules persist after a reboot, save them using : sudo iptables-save > /etc/iptables/rules.v4
