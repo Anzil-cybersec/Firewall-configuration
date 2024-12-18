@@ -24,9 +24,9 @@ To get started, clone this repository to your local machine: git clone https://g
 
 - ### 2. Configure iptables:
 Inside the firewall_rules/ folder, you will find various scripts for different configurations. You can choose and run the appropriate script based on your needs.
-Default firewall rules: To set up basic security rules, use the default_rules.sh script: sudo bash firewall_rules/default_rules.sh
-Allow SSH access from a specific IP: If you want to allow SSH only from a trusted IP, use ssh_only.sh: sudo bash firewall_rules/ssh_only.sh
-Allow HTTP/HTTPS traffic: Use web_server.sh to configure your firewall to allow traffic on ports 80 and 443 for web servers: sudo bash firewall_rules/web_server.sh
+- Default firewall rules: To set up basic security rules, use the default_rules.sh script: sudo bash firewall_rules/default_rules.sh.
+- Allow SSH access from a specific IP: If you want to allow SSH only from a trusted IP, use ssh_only.sh: sudo bash firewall_rules/ssh_only.sh.
+- Allow HTTP/HTTPS traffic: Use web_server.sh to configure your firewall to allow traffic on ports 80 and 443 for web servers: sudo bash firewall_rules/web_server.sh.
 
 - ### 3. Testing the firewall:
 After configuring the firewall, you can test the setup using the test/ directory:
