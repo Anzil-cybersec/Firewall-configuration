@@ -1,8 +1,17 @@
 # Firewall-configuration
-# Firewall Configuration Project using iptables
+## Firewall Configuration Project using iptables
 
 This project demonstrates how to configure a Linux server firewall using `iptables`. It includes scripts for setting up firewall rules, securing a web server, and restricting access to only necessary services such as HTTP, HTTPS, and SSH.
 
+## Features
+- Configures a secure web server with Apache or Nginx.
+- Uses `iptables` to control network traffic and secure the server.
+- Implements rules for:
+  - Allowing HTTP (port 80) and HTTPS (port 443) traffic.
+  - Allowing SSH (port 22) from trusted IPs only.
+  - Blocking unnecessary services (FTP, SNMP, etc.).
+- Provides sample scripts for setting up the firewall for different use cases.
+  
 ### Prerequisites:
 - A Linux machine (Ubuntu, CentOS, etc.)
 - Root or sudo access to configure `iptables`
@@ -13,7 +22,7 @@ This project demonstrates how to configure a Linux server firewall using `iptabl
 - ### 1. Clone the repository:
 To get started, clone this repository to your local machine: git clone https://github.com/Anzil-cybersec/Firewall-configuration.git
 
-- ###2. Configure iptables:
+- ### 2. Configure iptables:
 Inside the firewall_rules/ folder, you will find various scripts for different configurations. You can choose and run the appropriate script based on your needs.
 
 - ### 3. Testing the firewall:
